@@ -10,13 +10,14 @@ profile_default/
 ipython_config.py
 
 # Remove previous ipynb_checkpoints
-#   git rm -r .ipynb_checkpoints/
+git rm -r .ipynb_checkpoints/
 
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+.idea/
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
@@ -38,6 +39,7 @@ ipython_config.py
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
+
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -163,12 +165,6 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -225,7 +221,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-MANIFEST
 build
 dist
 _build
@@ -259,7 +254,6 @@ src
 
 *.swp
 *.map
-.idea/
 Read the Docs
 config.rst
 *.iml
@@ -268,7 +262,6 @@ config.rst
 
 package-lock.json
 geckodriver.log
-*.iml
 
 # jetbrains IDE stuff
 *.iml
